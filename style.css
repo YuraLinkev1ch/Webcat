@@ -7,15 +7,9 @@
 
 a {
     text-decoration: none;
-    color: #000 !important;
+    color: #000 ;
 }
 
-/*
-
-*{
-    border:2px solid black;
-}
-*/
 body{
     font-family: 'Montserrat', sans-serif;
     background-color: #F2E8CD;
@@ -47,6 +41,9 @@ body{
     font-size:20px;
     width:100%;
 }
+
+
+
 /*header-end*/
 
 
@@ -65,15 +62,21 @@ body{
     height: auto;
 }
 
-h1{
+
+.my-name__title,
+.section__title{
     font-size: 30px;
     font-weight: 600;
 }
 
-article,
-section{
-   display:grid;
-   grid-row-gap: 10px;
+.article,
+.section{
+    display:grid;
+    grid-row-gap: 10px;
+}
+
+.section__link{
+    color:red;
 }
 
 /*main-end*/
@@ -94,41 +97,3 @@ section{
 
 
 
-/*
-body{
-    max-width:700px;
-    min-height:500px;
-    margin:auto;
-    background-color:#F2E8CD ;
-}
-
-section{
-    width:100%;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-figure img{
-    height:300px;
-    width:500px;
-}
-
-figure,
-h1{
-    text-align:center;
-}
-h1{
-    font-size: 36px;
-}
-
-a{
-    text-decoration: none;
-}
-ol{
-    font-size: 20px;
-    
-}
-
-ul{
-    margin:20px 0;
-}
-*/
